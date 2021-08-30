@@ -9,6 +9,12 @@ const Layout = ({ children }) => {
             { children }
             </div>
             <Footer />
+            <style jsx>{`
+                .content {
+                    max-width: 1250px;
+                    margin: 0 auto;
+                }
+            `}</style>
         </div>
      );
 }
