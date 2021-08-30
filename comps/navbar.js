@@ -4,7 +4,7 @@ const Navbar = () => {
     return ( 
         <nav>
             <div className="logo">
-                <img src={process.env.PUBLIC_URL + '/weeii2.png'} width="130px" height ="130px"/>
+                <img src="/weeii2.png" width="130px" height ="130px"/>
             </div>
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About Us</a></Link>
